@@ -16,7 +16,7 @@ export async function getCharacters({ page = 1, name, status, gender, species })
     const res = await api.get('/character', { params })
     return res.data
   } catch (err) {
-    // a API responde 404 quando o filtro nao encontra ninguem, entao tratamos como lista vazia
+    // a API responde 404 quando o filtro nao encontra ninguem.
     if (err.response?.status === 404) {
       return { info: { count: 0, pages: 0 }, results: [] }
     }
@@ -37,13 +37,13 @@ export async function getEpisodes(ids) {
 
 export function getErrorMessage(err) {
   if (err.code === 'ECONNABORTED') {
-    return 'A API demorou demais para responder. Tente de novo em alguns segundos.'
+    return 'A API demorou demais para responder. Tente Novamente.'
   }
   if (!err.response) {
-    return 'Sem conexao com a API. Verifique sua internet e tente novamente.'
+    return 'Sem conexao com a API.'
   }
   if (err.response.status === 404) {
-    return 'Nao encontramos o que voce procurou.'
+    return 'Nao encontramos o que voce procura.'
   }
-  return 'Algo deu errado ao buscar os dados. Tente novamente.'
+  return 'Erro ao buscar os dados. Tente novamente.'
 }

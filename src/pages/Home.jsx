@@ -110,7 +110,7 @@ export default function Home() {
           Personagens
         </Typography>
         <Typography color="text.secondary" sx={{ maxWidth: 620 }}>
-          Todo mundo que ja apareceu em Rick and Morty. Busque pelo nome e combine os filtros para achar quem voce quer.
+          Todos Personagens que ja apareceram em Rick and Morty.
         </Typography>
       </Box>
 

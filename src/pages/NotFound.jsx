@@ -11,7 +11,7 @@ export default function NotFound() {
         Essa dimensao nao existe
       </Typography>
       <Typography color="text.secondary" sx={{ mb: 3 }}>
-        O endereco que voce abriu nao leva a lugar nenhum.
+        O endereco nao encontrado.
       </Typography>
       <Button component={Link} to="/" variant="contained">
         Voltar para o inicio

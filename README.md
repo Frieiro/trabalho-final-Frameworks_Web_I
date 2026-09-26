@@ -2,7 +2,7 @@
 
 Aplicacao web feita em React para o Trabalho Final da disciplina de **Frameworks Web I** (Unilavras).
 
-A ideia e ser um catalogo dos personagens de Rick and Morty. Na pagina inicial aparecem todos os personagens com paginacao, e da para buscar pelo nome (a lista atualiza enquanto voce digita) e combinar filtros de status, genero e especie. Clicando em um personagem abre a pagina de detalhes dele, com as informacoes completas e a lista de episodios em que ele aparece.
+A ideia e ser um catalogo dos personagens de Rick and Morty. Na pagina inicial aparecem todos os personagens com paginacao, e para fazer busca pelo nome e combinar filtros de status, genero e especie. Clicando em um personagem abre a pagina de detalhes, com as informacoes completas e a lista de episodios em que ele apareceu.
 
 ## API utilizada
 
@@ -23,9 +23,8 @@ Endpoints usados:
 
 ## Integrantes
 
-- Nome completo 1
-- Nome completo 2
-- Nome completo 3
+- Andre Mendes Frieiro
+- Thiago
 
 ## Como executar
 

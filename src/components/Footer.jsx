@@ -8,7 +8,7 @@ export default function Footer() {
         <Link href="https://rickandmortyapi.com" target="_blank" rel="noreferrer" color="secondary">
           Rick and Morty API
         </Link>
-        {' '}- Trabalho Final de Frameworks Web I, Unilavras
+        {' '}- Trabalho Final de Frameworks Web I
       </Typography>
     </Box>
   )

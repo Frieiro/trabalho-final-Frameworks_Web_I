@@ -9,12 +9,12 @@ export default function ErrorMessage({ message, onRetry }) {
       action={
         onRetry && (
           <Button color="inherit" size="small" onClick={onRetry}>
-            Tentar de novo
+            Tente Novamente
           </Button>
         )
       }
     >
-      <AlertTitle>Nao deu para carregar</AlertTitle>
+      <AlertTitle>Falha ao Carregar.</AlertTitle>
       {message}
     </Alert>
   )

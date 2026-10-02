@@ -24,7 +24,7 @@ Endpoints usados:
 ## Integrantes
 
 - Andre Mendes Frieiro
-- Thiago
+- Thiago Elias de Souza
 
 ## Como executar
 
